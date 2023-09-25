@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contect Me</title>
+    <link rel="icon" href="contact icon.png">
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(photo-1528459801416-a9e53bbf4e17.avif);
+            background-position:center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height:fit-content;
+        }
+    </style>
+    
+    <div class="container">
+        <h1 class="text-center" style="color: rgb(63, 7, 7); text-align: center;"> Contact Me</h1>
+        <fieldset>
+            <legend style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 30px;">ME</legend>
+            <img src="me.jpg" alt="" style="width: 30%;" >
+
+        <br>
+
+
+        <div class="row">
+            <div class="col-lg-5">      <!--this is the 1st grid ,,, in this we are going to have email id -->
+                <p>Name:- <strong>MALLIKARJUNASWAMY HIREMATH</strong></p>
+                <p>
+                    Email:- <strong>swamyh.cse.rymec@gmail.com</strong>
+                </p>
+                <p>
+                    Contact:- <b>+91 9148989042</b>
+                </p>
+                <p>
+                    Address:- <b>GANGAVATHI,karnataka</b><br>
+            
+                </p>
+            </div>
+        </fieldset>
+            <fieldset>
+                <legend style=" font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Times, serif; font-size: 30px;"font-size >Details</legend>
+                <div class="col-lg-7">      <!--this is the second grid,, here we will have enquiry column i.e asking the user to fill the  details-->
+                    <h3>Please fill the details</h3>
+                    <p>
+                        <label>Name</label>
+                        <input type="text"
+                        class="form-control" id="name">
+                        <span style="color:red;" id="errNameMessage"></span> <!--span tag is used to display the error message-->
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="text"
+                        class="form-control" id="Email">
+                        <span style="color:red;" id="errEmailMessage"></span>
+                    </p>
+                    <p>
+                        <label>Mobile</label>
+                        <input type="text"
+                        class="form-control" id="mobile" maxlength="10">
+                        <span style="color:red;" id="errMobileMessage"></span>
+                    </p>
+                    <p>
+                        <label>Comments</label>
+                        <textarea id="Comments" class="form-control"></textarea>
+                        <span style="color:red;" id="errCommentsMessage"></span>
+                    </p>
+                    <button class="btn btn-primary" style="width:fit-content;">Submit</button>    <!--onclick is a event listner for submit button-->
+                </div>
+            </div>
+       </div>
+            </fieldset>
+            
+    
+</body>
+</html>
